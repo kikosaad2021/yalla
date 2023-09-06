@@ -1,0 +1,71 @@
+:root {
+    --color-primary:#FF5A3C !important;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size:18px
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: inherit;
+}
+a{
+    transition: 0.3s;
+    color: var(--color-primary);
+    text-decoration: inherit;
+}
+a:hover{
+    text-decoration: underline;
+}
+.brand-text .site-description {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.ax-hstyle1 .site-branding.brand-text h1 {
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.ax-hstyle1 .site-branding.brand-text a,
+.ax-hstyle1 .site-branding.brand-text a:hover {
+    text-decoration: inherit;
+    color: var(--color-primary);
+}
+.ax-hstyle1 .main-navigation ul li a,
+footer .site-info a,
+.navigation a,
+.entry-footer a,
+.pagination .nav-links a{
+    text-decoration: inherit;
+}
+.beye-grid .blog-eye-text-inner {
+    padding: 20px;
+}
+.beye-grid a{
+    text-decoration: none;
+}
+.beye-grid .blog-eye-text-inner {
+    margin-top: 1rem;
+}
+aside section.widget {
+    border: 1px solid #ededed;
+    box-shadow: var(--box-shadow);
+    background: #fff;
+}
+aside#secondary {
+    position: sticky;
+    top: 50px;
+}
+.site-info {
+    font-size: 15px;
+}
+@media only screen and (max-width: 991px) {
+    .ax-hstyle1 .site-branding.brand-text h1 {
+        font-size: 40px;
+    }
+    .brand-text .site-description {
+        font-size: 16px;
+    }
+}
